@@ -25,7 +25,7 @@ const Dashboard = () => {
 
       <WeatherCards data={actual} />
 
-      <h3 style={{ marginTop: '40px' }}>Historial de Lecturas</h3>
+      <h3 style={{ marginTop: '40px' }}>Historial de Datos</h3>
       <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '20px' }}>
         <thead>
           <tr style={{ borderBottom: '2px solid #0056b3' }}>

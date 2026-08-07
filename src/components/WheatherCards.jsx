@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WeatherCards = ({ data }) => {
-  if (!data) return <p>Cargando sensores...</p>;
+  if (!data) return <p>Cargando Datos de los Sensores...</p>;
 
   return (
     <div style={{ display: 'flex', gap: '20px', justifyContent: 'center' }}>
