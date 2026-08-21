@@ -1,6 +1,9 @@
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
 const SUPABASE_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
+console.log("SUPABASE URL:", SUPABASE_URL);
+console.log("SUPABASE KEY CONFIGURADA:", Boolean(SUPABASE_KEY));
+
 export const getSensorData = async () => {
   try {
     const response = await fetch(
