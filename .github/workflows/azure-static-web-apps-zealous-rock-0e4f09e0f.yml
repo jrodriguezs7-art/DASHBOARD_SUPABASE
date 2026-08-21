@@ -49,4 +49,4 @@ jobs:
           app_location: "/"
           api_location: ""
           output_location: "dist"
-          action: "close"
+          action: "close" 
